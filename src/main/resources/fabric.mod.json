@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "roofed",
+	"version": "${version}",
+	"name": "roofed",
+	"description": "Roofed is a lightweight Fabric mod focused on adding new items, progression elements, and future world expansion. The core feature is the Rift Shard, a mysterious item that will later unlock new mechanics and dimensions.",
+	"authors": [
+		"PhaseZenith"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/roofed/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.phase.roofed.Roofed"
+		],
+		"fabric-datagen": [
+			"net.phase.roofed.RoofedDataGenerator"
+		],
+		"client": [
+			"net.phase.roofed.RoofedClient"
+		]
+	},
+	"mixins": [
+		"roofed.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
