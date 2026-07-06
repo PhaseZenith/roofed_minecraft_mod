@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "roofed:rift_shard_fragment"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "X##",
+    "X##",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "roofed:rift_shard"
+  }
+}

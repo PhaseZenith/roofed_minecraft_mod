@@ -1,4 +1,9 @@
 {
   "item.roofed.rift_shard": "Rift Shard",
-  "item.roofed.rift_shard_fragment": "Rift Shard Fragment"
+  "item.roofed.rift_shard_fragment": "Rift Shard Fragment",
+
+  "block.roofed.rift_shard_block": "Block of Rift Shard",
+  "block.roofed.rift_ore": "Rift Ore",
+
+  "itemgroup.roofed.roofed_group": "Roofed"
 }
